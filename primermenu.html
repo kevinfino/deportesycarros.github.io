@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>PORTAL DEPORTIVO MUNDIAL</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #f9fbe7;
+            margin: 0;
+            padding: 0;
+        }
+
+        header{
+            background-color: #1b5e20;
+            color: white;
+            text-align: center;
+            padding: 30px 10px;
+        }
+
+        nav{
+            background-color: #33691e;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a{
+            color: white;
+            margin: 15px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        nav a:hover{
+            text-decoration: underline;
+        } 
+
+        main{
+            padding: 30px;
+        }
+
+        section{
+            margin-bottom: 60px;
+        }
+
+        .deporte{
+            background-color: #ffffff;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 1);
+            margin-bottom: 30px;
+        }
+
+        .deporte img{
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        table{
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #fff;
+            box-sizing: 0 2px 5px rgba(0, 0, 0, 0, 1);
+        }
+
+        th, td{
+            padding: 15px;
+            text-align: center;
+            border: 1px solid #ccc;
+        }
+
+        th{
+            background-color: #aed581;
+        }
+
+        form{
+            background-color: #f1f8e9;
+            padding: 30px;
+            border-radius: 10px;
+        }
+
+        input, textarea{
+            width: 100%;
+            padding: 12px;
+            margin-top: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        input[type="submit"]{
+            background-color: #4caf50;
+            color: white;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+
+        input[type="submit"]:hover{
+            background-color: #388e3c;
+        }
+
+        .galeria{
+            display:flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        article{
+            margin-top: 40px;
+        }
+
+        article h3{
+            color: #33691e;
+        }
+
+        footer{
+            background-color:#2e7d32;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        </style>
+        </head>
+        <body>
+            <header>
+                <h1>portal deporte mundial</h1>
+                <p>¡todo sobre tus deportes favoritas en un solo lugar!</p>
+            </header>
+            <nav>
+                <a href="#futbol">Fútbol</a>
+                <a href="#baloncesto">Baloncesto</a>
+                <a href="#natacion">Natación</a>
+                <a href="#tenis">Tenis</a>
+                <a href="#beisbol">Béisbol</a>
+                <a href="#eventos">Eventos</a>
+                <a href="#galeria">Galería</a>
+                <a href="#articulos">Artículos</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+            
+            <main>
+                <section id="futbol" class="deporte">
+                    <h2>Fútbol</h2>
+                    <p>Es el deporte más seguido en el mundo. Se juega con dos equipos de 11 jugadores tratando de marcar goles.
+                         Torneos famosos incluyen la Copa Mundial y la Champions League. El fútbol es el deporte más practicado
+                        y seguido en todo el planeta.</p>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Soccer_ball.svg" alt="Fútbol">
+                </section>
+            
+                <section id="baloncesto" class="deporte">
+                    <h2>Baloncesto</h2>
+                    <p>Dos equipos de cinco jugadores intentan anotar puntos encestando un balón en un aro elevado. 
+                        Es muy popular en Estados Unidos con la NBA como liga principal. El baloncesto es un deporte dinámico
+                    que combina velocidad,agilidad,precision y estrategia.</p>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Basketball.png" alt="Baloncesto">
+                </section>
+            
+                <section id="natacion" class="deporte">
+                    <h2>Natación</h2>
+                    <p>Un deporte completo que fortalece el cuerpo entero. 
+                        Las competencias incluyen estilo libre, pecho, mariposa y espalda.lanatación 
+                    es un deporte acuatico que implica el desplazamiento en el agua mediante el uso de los brazos y piernas,
+                y se considera unos de los ejercicios mas complejos que existen.</p>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d7/Swimming_pictogram.svg" alt="Natación">
+                </section>
+            
+                <section id="tenis" class="deporte">
+                    <h2>Tenis</h2>
+                    <p>Juegos individuales o dobles donde los jugadores usan raquetas para golpear una pelota sobre una red. 
+                        Torneos principales: Wimbledon, Roland Garros, US Open y Australian Open.el tenis es un deporte 
+                    de raqueta que se puede jugar entre dos personas(individuales) o cuatros (dobles).</p>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Tennis_pictogram.svg" alt="Tenis">
+                </section>
+            
+                <section id="beisbol" class="deporte">
+                    <h2>Béisbol</h2>
+                    <p>Muy popular en América y Asia. Dos equipos se turnan para batear y defender con el objetivo de anotar carreras. 
+                        Grandes ligas: MLB en EE.UU. y la Serie del Caribe.el beisbol es un deporte que se practica principalmente en America
+                        del norte, el caribe, japon y corea del sur./p>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/2/25/Baseball_pictogram.svg" alt="Béisbol">
+                </section>
+            
+                <section id="eventos">
+                    <h2>Eventos Deportivos 2025</h2>
+                    <table>
+                        <tr>
+                            <th>Evento</th>
+                            <th>Fecha</th>
+                            <th>Deporte</th>
+                            <th>Ubicación</th>
+                        </tr>
+                        <tr>
+                            <td>Olimpiadas Juveniles</td>
+                            <td>15 de abril</td>
+                            <td>Multideporte</td>
+                            <td>Argentina</td>
+                        </tr>
+                        <tr>
+                            <td>Final UEFA Champions League</td>
+                            <td>28 de mayo</td>
+                            <td>Fútbol</td>
+                            <td>Londres</td>
+                        </tr>
+                        <tr>
+                            <td>Grand Slam - Roland Garros</td>
+                            <td>10 de junio</td>
+                            <td>Tenis</td>
+                            <td>París</td>
+                        </tr>
+                    </table>
+                </section>
+            
+                <section id="galeria">
+                    <h2>Galería Deportiva</h2>
+                    <div class="galeria">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/4/43/Football_in_Brazil.jpg" alt="Fútbol en Brasil">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/f/fd/Basketball_game.jpg" alt="Partido de baloncesto">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Olympic_swimming_pool.jpg" alt="Piscina olímpica">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Tennis_match.jpg" alt="Partido de tenis">
+                    </div>
+                </section>
+            
+                <section id="articulos">
+                    <h2>Artículos Destacados</h2>
+                    <article>
+                        <h3>¿Por qué el deporte es esencial para la salud?</h3>
+                        <p>Practicar deporte regularmente mejora la salud cardiovascular, fortalece los músculos y mejora el estado de ánimo. Los expertos recomiendan al menos 150 minutos de actividad física moderada por semana.</p>
+                    </article>
+                    <article>
+                        <h3>Los 5 mejores futbolistas del siglo XXI</h3>
+                        <p>Entre ellos encontramos a Lionel Messi, Cristiano Ronaldo, Neymar Jr, Luka Modrić y Kylian Mbappé. Estos atletas han revolucionado el fútbol moderno con su talento, compromiso y récords históricos.</p>
+                    </article>
+                </section>
+            
+                <section id="contacto">
+                    <h2>Contacto</h2>
+                    <form>
+                        <label for="nombre">Nombre completo:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+            
+                        <label for="correo">Correo electrónico:</label>
+                        <input type="email" id="correo" name="correo" required>
+            
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" rows="6" required></textarea>
+            
+                        <input type="submit" value="Enviar Mensaje">
+                    </form>
+                </section>
+            </main>
+            
+            <footer>
+                <p>&copy; 2025 Portal Deportivo Mundial - Desarrollado por [Tu Nombre o Institución]</p>
+                <p>Síguenos en redes sociales: Facebook | Instagram | Twitter</p>
+            </footer>
+                 
+</body>
+</html>
